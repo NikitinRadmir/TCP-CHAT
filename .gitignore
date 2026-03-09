@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.*
+
+# IDE / Editor / OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+*.a
+
+
+# Cache / Temp
+*.log
+*.tmp
+
+# Go module cache (better not commit vendor)
+vendor/
+
+# If using go build -o bin/app
+bin/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Crash dumps
+*.dump
